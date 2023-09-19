@@ -6,10 +6,7 @@ import {nanoid} from 'nanoid'
 const App = () => {
   const [count, setCount] = useState(1)// this is going to rep the amount of paragraphs that will be generated (starting at 1)
   const [text, setText] = useState([]) 
-  
-  
-  
-  
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
     let amount = parseInt(count)// typeof count ('string')>> Integer
@@ -41,4 +38,3 @@ const App = () => {
   ) 
   };
 export default App;
-;';;';';';';';';'
